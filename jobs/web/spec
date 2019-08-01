@@ -676,7 +676,7 @@ properties:
     env: CONCOURSE_ENABLE_LIDAR
     description: |
       Enable new resource checking which tracks checks in the database
-    default: false
+    default: true
 
   global_resource_check_timeout:
     env: CONCOURSE_GLOBAL_RESOURCE_CHECK_TIMEOUT
