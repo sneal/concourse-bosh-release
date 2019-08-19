@@ -341,7 +341,6 @@ processes:
 
 <% if_p("enable_lidar") do |v| -%>
     CONCOURSE_ENABLE_LIDAR: <%= env_flag(v).to_json %>
-    CONCOURSE_NOOP: <%= env_flag(v).to_json %>
 <% end -%>
 
 <% if_p("encryption_key") do |v| -%>
